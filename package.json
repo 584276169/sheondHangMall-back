@@ -1,0 +1,32 @@
+{
+  "name": "secondhandmall-after",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "~1.4.4",
+    "dayjs": "^1.10.7",
+    "debug": "~2.6.9",
+    "encoding": "^0.1.13",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.1.0",
+    "redis": "^3.1.2",
+    "sequelize": "^6.19.0",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
