@@ -1,8 +1,8 @@
   let redis=require('redis');
   const options = {
-    host: '',  //redis ip
+    host: '112.74.83.16',
     port: 6379,
-    password:'',  //密码
+    password:'chenxueliang520',
     detect_buffers: true // 传入buffer 返回也是buffer 否则会转换成String
   };
 
